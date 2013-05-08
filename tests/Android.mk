@@ -33,3 +33,6 @@ include $(BUILD_PACKAGE)
 
 # Include packages in subdirectories
 include $(call all-makefiles-under,$(LOCAL_PATH))
+
+# Bundle into ATF package
+ATF_TEST_PACKAGES += QuickSearchBoxTests
